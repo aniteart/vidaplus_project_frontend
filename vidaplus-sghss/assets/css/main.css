@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-button {
+    @apply flex flex-col items-center justify-center p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-full max-w-sm mx-auto mb-6;
+  }
+  
+  .nav-title {
+    @apply text-xl font-bold mb-2 text-gray-800;
+  }
+  
+  .nav-description {
+    @apply text-sm text-gray-600 text-center;
+  }
+}
