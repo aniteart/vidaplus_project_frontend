@@ -1,0 +1,44 @@
+[
+  {
+    "name": "administrador",
+    "path": "/administrador",
+    "component": "C:\\\\Users\\\\alopes\\\\vida_plus\\\\vidaplus_project_frontend\\\\pages\\\\administrador.vue",
+    "chunkName": "pages/administrador",
+    "_name": "_4a6dc86a"
+  },
+  {
+    "name": "historicoMedico",
+    "path": "/historicoMedico",
+    "component": "C:\\\\Users\\\\alopes\\\\vida_plus\\\\vidaplus_project_frontend\\\\pages\\\\historicoMedico.vue",
+    "chunkName": "pages/historicoMedico",
+    "_name": "_a0c1b074"
+  },
+  {
+    "name": "paciente",
+    "path": "/paciente",
+    "component": "C:\\\\Users\\\\alopes\\\\vida_plus\\\\vidaplus_project_frontend\\\\pages\\\\paciente.vue",
+    "chunkName": "pages/paciente",
+    "_name": "_bddcf258"
+  },
+  {
+    "name": "profissionais",
+    "path": "/profissionais",
+    "component": "C:\\\\Users\\\\alopes\\\\vida_plus\\\\vidaplus_project_frontend\\\\pages\\\\profissionais.vue",
+    "chunkName": "pages/profissionais",
+    "_name": "_6e732980"
+  },
+  {
+    "name": "telemedicina",
+    "path": "/telemedicina",
+    "component": "C:\\\\Users\\\\alopes\\\\vida_plus\\\\vidaplus_project_frontend\\\\pages\\\\telemedicina.vue",
+    "chunkName": "pages/telemedicina",
+    "_name": "_14d65643"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\alopes\\\\vida_plus\\\\vidaplus_project_frontend\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_21948602"
+  }
+]
