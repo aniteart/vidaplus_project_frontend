@@ -251,23 +251,19 @@ export default {
 </script>
 
 <style scoped>
-/* Transições suaves */
 .transition-all {
   transition-property: all;
 }
 
-/* Melhor espaçamento para os botões de documento */
 .btn-sm {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
 }
 
-/* Melhor legibilidade para o texto */
 .text-secondary {
   color: #6c757d !important;
 }
 
-/* Ajuste fino no hover dos cards */
 .bg-white:hover {
   transform: translateY(-2px);
 }

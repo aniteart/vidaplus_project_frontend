@@ -14,7 +14,6 @@
         </NuxtLink>
       </div>
 
-      <!-- Main Content -->
       <div class="bg-white rounded-3 shadow p-4 p-lg-5">
         <div class="d-flex justify-content-between align-items-start mb-4 mb-lg-5 flex-wrap">
           <div>
@@ -31,7 +30,6 @@
           </button>
         </div>
 
-        <!-- Active Consultation Section -->
         <div v-if="activeConsultation" class="mb-5 bg-primary bg-opacity-10 rounded-3 p-4">
           <div class="d-flex justify-content-between align-items-start mb-3 flex-wrap">
             <h2 class="h3 fw-semibold text-primary mb-2 mb-sm-0">Consulta em Andamento</h2>
@@ -52,7 +50,6 @@
               <video v-else ref="videoElement" class="w-100 h-100 rounded-3"></video>
             </div>
 
-            <!-- Consultation Info -->
             <div class="col-lg-4 bg-white rounded-3 p-4 shadow-sm">
               <h3 class="h5 fw-semibold text-dark mb-4">Informações da Consulta</h3>
               <div class="mb-3">
@@ -73,7 +70,6 @@
           </div>
         </div>
 
-        <!-- Features Grid -->
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
           <!-- Próximas Consultas -->
           <div class="col">
@@ -159,7 +155,7 @@
       </div>
     </div>
 
-    <!-- Schedule Modal -->
+    <!-- Modal de agendamento-->
     <div v-if="showScheduleModal" class="modal d-block" tabindex="-1" role="dialog" style="background-color: rgba(0,0,0,0.5);">
       <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content rounded-3 shadow">
