@@ -1,5 +1,5 @@
 <template>
-  <div class="min-vh-100 py-5" style="background-color: #f0f8ff;">
+  <div class="min-vh-100 py-5" style="background-color: #f0f8ff; font-family: 'Inter', sans-serif;">
     <div class="container">
       <!-- Logo e Cabeçalho -->
       <div class="text-center mb-4">
@@ -85,7 +85,6 @@ export default {
 </script>
 
 <style scoped>
-/* Estilos dos Cards */
 .card-hover {
   transition: all 0.3s ease;
   background-color: white;
@@ -102,24 +101,20 @@ export default {
   color: #495057 !important;
 }
 
-/* Estilos Globais */
 body {
   font-family: 'Inter', sans-serif;
 }
 
-/* Ajustes de Espaçamento */
 .mb-6 {
   margin-bottom: 4rem;
 }
 
-/* Efeito de Transição Suave */
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
 }
 
-/* Responsividade para Telas Pequenas */
 @media (max-width: 768px) {
   .display-4 {
     font-size: 2.5rem;

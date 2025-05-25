@@ -14,7 +14,6 @@
         </NuxtLink>
       </div>
 
-      <!-- Conteúdo Principal -->
       <div class="bg-white bg-opacity-90 rounded-3 shadow p-4 p-md-5 mb-4" style="backdrop-filter: blur(8px);">
         <!-- Cabeçalho -->
         <header class="mb-5">

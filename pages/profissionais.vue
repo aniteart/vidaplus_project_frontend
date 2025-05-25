@@ -153,7 +153,7 @@
       </div>
     </div>
 
-    <!-- Modal Prontuários (bootstrap modal example simplificado) -->
+    <!-- Modal Prontuários-->
     <div v-if="showPatientRecords" class="modal d-block" tabindex="-1" role="dialog" style="background: rgba(0,0,0,0.5);">
       <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
         <div class="modal-content rounded-4">
@@ -238,7 +238,6 @@
       </div>
     </div>
 
-    <!-- Modal Nova Consulta -->
     <div v-if="showAgendaModal" class="modal d-block" tabindex="-1" role="dialog" style="background: rgba(0,0,0,0.5);">
       <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content rounded-4">
@@ -346,7 +345,6 @@ const newAppointment = ref({
 function submitNewAppointment() {
   alert(`Consulta agendada para ${newAppointment.value.patientName} em ${newAppointment.value.date} às ${newAppointment.value.time} (${newAppointment.value.type})`);
   showAgendaModal.value = false;
-  // Aqui você poderia adicionar lógica para salvar o agendamento, etc.
 }
 </script>
 
